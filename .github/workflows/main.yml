@@ -18,7 +18,7 @@ jobs:
       - name: Install Dependencies
         run: npm install
       - name: Deploy SST Proj
-        run: npm run deploy
+        run: npm run deploy -- --stage test
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.KEY }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.SECRET }}
