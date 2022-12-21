@@ -20,5 +20,5 @@ jobs:
       - name: Deploy SST Proj
         run: npm run deploy
         env:
-          AWS_ACCESS_KEY_ID: ${{ secrets.key }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.secret }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.KEY }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.SECRET }}
