@@ -16,7 +16,7 @@ jobs:
         with:
           node-version: "16"
       - name: Install Dependencies
-        run: npm run
+        run: npm install
       - name: Deploy SST Proj
         run: npm run deploy
         env:
